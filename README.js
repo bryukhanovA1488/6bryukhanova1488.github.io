@@ -42,7 +42,7 @@ function updatePrice() {
   let prodPrice = document.getElementById("prodPrice");
   let n = document.getElementById("kol").value;
   if(n!=null){
-  prodPrice.innerHTML = price * n + " Ñ€ÑƒÐ±Ð»ÐµÐ¹";
+  prodPrice.innerHTML = price * n + ;
   }
 }
 function getPrices() {
